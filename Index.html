@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Galeria de Fotos com Slider</title>
+</head>
+<body>
+    <header>
+        <h1>Galeria de Fotos</h1>
+    </header>
+
+    <section class="slider">
+        <div class="container-slides">
+            <div class="slide-active">
+                <img src="/plano.jpg" alt="Imagem 1">
+            </div>
+            <div class="slides">
+                <img src="https://via.placeholder.com/800x400?text=Imagem+2" alt="Imagem 2">
+            </div>
+            <div class="slides">
+                <img src="https://via.placeholder.com/800x400?text=Imagem+3" alt="Imagem 3">
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </section>
+
+    <section class="gallery">
+        <h2>Galeria de Fotos</h2>
+        <div class="grid">
+            <div class="grid-item"><img src="https://via.placeholder.com/300x200?text=1" alt="Foto 1"></div>
+            <div class="grid-item"><img src="https://via.placeholder.com/300x200?text=2" alt="Foto 2"></div>
+            <div class="grid-item"><img src="https://via.placeholder.com/300x200?text=3" alt="Foto 3"></div>
+            <div class="grid-item"><img src="https://via.placeholder.com/300x200?text=4" alt="Foto 4"></div>
+            <div class="grid-item"><img src="https://via.placeholder.com/300x200?text=5" alt="Foto 5"></div>
+            <div class="grid-item"><img src="https://via.placeholder.com/300x200?text=6" alt="Foto 6"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2023 Minha Galeria</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
